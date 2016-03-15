@@ -1,0 +1,12 @@
+/etc/nginx/ - nginx config here
+ll - list of files in table
+/etc/nginx/nginx.conf - main config file
+nano nginx.conf - open file in editor
+service nginx start(status, stop) - start process
+
+ps -ef --forest | grep nginx   -show nginx processes
+
+service nginx reload - restarts server
+
+ls -l /var/log/nginx/error.log  - nginx error log
+less /var/log/nginx/error.log  - view error log
