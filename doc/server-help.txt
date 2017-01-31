@@ -12,3 +12,7 @@ ls -l /var/log/nginx/error.log  - nginx error log
 less /var/log/nginx/error.log  - view error log
 
 chown www-data html -R   - change folder owner
+
+
+web site sources: /usr/share/nginx/html
+chmod -R 755 /usr/share/nginx/html
