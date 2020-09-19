@@ -23,10 +23,10 @@
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -68,20 +68,21 @@
 									<h2>My Skills</h2>
 									    <!-- Progress Bar --> 
 										<div class="progress">
-										<div class="bar" style="width: 75%;">C# 75%</div>
+											<div class="bar" style="width: 100%;">C#, JavaScript, SQL</div>
 										</div>  
+
 										<div class="progress">
-										<div class="bar" style="width: 70%;">ASP.NET MVC 70%</div>
+											<div class="bar" style="width: 100%;">ASP.NET MVC, Web API</div>
+										</div>
+
+										<div class="progress">
+											<div class="bar" style="width: 100%;">Angular</div>
+										</div>
+
+										<div class="progress">
+											<div class="bar" style="width: 100%;">Project leading, Team management</div>
 										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 78%;">Web API 78%</div>
-										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 60%;">AngularJS 60%</div>
-										</div>  
-										<div class="progress">
-										<div class="bar" style="width: 53%;">JQuery 53%</div>
-										</div> 
+
 										<!-- Progress Bar End --> 
 									</div><!-- /span6 -->
 									<div class="span4"></div>
@@ -92,7 +93,7 @@
 									<div class="span12">
 										<div class="row about-us">
 											<div class="span3">
-											<h3><i class="icon-user icon-white"></i> More About Me?</h3>
+											<h3><i class="icon-user icon-white"></i> More About Me</h3>
 											</div>
 											<div class="span3">
 											<h3><i class="icon-heart icon-white"></i> What I Love</h3>
@@ -121,27 +122,45 @@
 						<h2 >Latests Works</h2> <!-- class="bl-icon bl-icon-works"-->
 					</div>
 					<div class="bl-content">
-						<h2>Mos Recent Project</h2>
-						<p>WinKAS Air.</p>
+						<h2>Most Recent Project</h2>
+						<!--<p>WinKAS Air.</p>-->
+
 						<div class="row-fluid">
-							<div class="span4">
+
+							<div class="span6">
+								<ul id="bl-work-items" style="list-style: none;">
+									<li data-panel="panel-4"><a href="https://formsatsningen.se"><img src="images/formsatsningen.png" /></a></li>
+								</ul>
+								<p>Formsatsningen</p>
+							</div><!-- /span6 -->
+
+							<div class="span6">
+								<ul id="bl-work-items" style="list-style: none;">
+									<li data-panel="panel-5"><a href="https://info.imaginecare.com"><img src="images/imaginecare.png" /></a></li>
+								</ul>
+								<p>ImagineCare</p>
+							</div><!-- /span6 -->
+
+							<div class="span6">
 								<ul id="bl-work-items" style="list-style: none;">
 									<li data-panel="panel-1"><a href="https://air.winkas.net"><img src="images/winkasair.jpg" /></a></li>
 								</ul>
 								<p>WinKAS Air</p>							
-							</div><!-- /span4 -->
+							</div><!-- /span6 -->
+
 							<div class="span4">
-								<ul id="bl-work-items">
+								<ul id="bl-work-items" style="list-style: none;">
 									<li data-panel="panel-2"><a href="http://audemo.azurewebsites.net"><img src="images/auctionata.jpg" /></a></li>
 								</ul>
 								<p>Auctionata Demo</p>							
-							</div><!-- /span4 -->
+							</div><!-- /span6 -->
+
 							<div class="span4">
-								<ul id="bl-work-items">
+								<ul id="bl-work-items" style="list-style: none;">
 									<li data-panel="panel-3"><a href="https://camlytest.azurewebsites.net"><img src="images/camly.jpg" /></a></li>
 								</ul>
 								<p>Camly Demo</p>							
-							</div><!-- /span4 -->
+							</div><!-- /span6 -->
 
 						</div><!-- /row-fluid -->
 					</div><!-- /bl-content -->
@@ -207,6 +226,31 @@
 				
 			<!--=========== PROJECTS DESCRIPTIONS SECTION ===========-->
 				<div class="bl-panel-items" id="bl-panel-work-items">
+
+					<div data-panel="panel-4">
+						<div class="row-fluid">
+							<div class="span8 offset2 tweak">
+								<img src="images/formsatsningen.png" />
+								<br>
+								<p>Web API for web and mobile apps.</p>
+								<h4>Project Details</h4>
+								<p>ASP.NET Core Web API, Entity Framework Core, Hangfire, Azure</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+					</div><!-- /panel1 -->
+
+					<div data-panel="panel-5">
+						<div class="row-fluid">
+							<div class="span8 offset2 tweak">
+								<img src="images/imaginecare.png" />
+								<br>
+								<p>ImagineCare is a holistic health experience system that focuses on the customer experience, integrating behavior change design into mobile apps and new clinical web applications. The latest evidence in health and chronic disease management is paired with patent-pending cloud-based technology solutions to offer a highly secure and engaging end-to-end digital health service.</p>
+								<h4>Project Details</h4>
+								<p>ASP.NET Web API, Dynamics 365, Azure</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+					</div><!-- /panel1 -->
+
 					<div data-panel="panel-1">
 						<div class="row-fluid">
 							<div class="span8 offset2 tweak">
